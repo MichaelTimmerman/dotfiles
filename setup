@@ -10,6 +10,11 @@ ln -sf "$PWD/.inputrc" "$HOME"/.inputrc
 ln -sf "$PWD/.tmux.conf" "$HOME"/.tmux.conf
 
 packages=(
+  fd
+  ripgrep
+  git
+  curl
+  fzf
   k9s
 )
 
